@@ -1,4 +1,6 @@
 import React from 'react';
+
+//Import animation
 import Bounce from 'react-reveal/Bounce';
 
 //Import components
