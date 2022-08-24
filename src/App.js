@@ -11,6 +11,8 @@ import D4 from './Views/D4';
 import D5 from './Views/D5';
 import D6 from './Views/D6';
 import D7 from './Views/D7';
+import D8 from './Views/D8';
+import D9 from './Views/D9';
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
       <D5 />
       <D6 />
       <D7 />
+      <D8 />
+      <D9 />
     </div>
   );
 }

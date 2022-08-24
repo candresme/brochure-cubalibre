@@ -16,10 +16,15 @@
 body{
   padding: 0;
   margin: 0;
-  font-family: 'Mansalva', cursive;
+  
 }
 
 p {
   text-align: justify;
+  font-family: 'Mansalva', cursive;
+}
+
+h1{
+  font-family: 'Sedgwick Ave', cursive;
 }
 
