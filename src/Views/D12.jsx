@@ -11,9 +11,9 @@ import titulo from '../img/D12-14.png.webp';
 const D12 = () => {
   return (
     <div className="container-fluid text-center m-0 p-0">
-        <div className="row align-items-center justify-content-center m-0 p-0" style={{backgroundImage: `url(${fondo})`, backgroundPosition: 'center',backgroundSize: 'cover'}}>
+        <div className="row align-items-center justify-content-center m-0 p-0 D12" style={{backgroundImage: `url(${fondo})`, backgroundPosition: 'center',backgroundSize: 'cover'}}>
             <Bounce left cascade>
-                <div className="col m-0 p-0 position-relative">   
+                <div className="col m-0 p-0 position-relative" style={{height: '100%', width: '100%'}}>   
 
                     <img className="m-0 p-0 titulo-z position-absolute" src={titulo} alt="Imagen de Cuba Libre"/>
                     <img className="m-0 p-0 imagen-z" src={imagen} alt="Imagen de Cuba Libre" width='100%'/>

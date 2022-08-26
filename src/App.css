@@ -53,10 +53,27 @@ h1{
 
 a, a:hover{
   color:white;
+  text-decoration: none;
 }
 
 .icono:hover{
   font-size: 45px;
+  transition: 100ms;
+}
+
+.text-color-yellow{
+  color:#f08b00;
+}
+
+.boton{
+  background-color: black;
+  color: white;
+  margin-bottom: 5px;
+  transition: 100ms;
+}
+
+.boton:hover{
+  background-color: #f08b00;
   transition: 100ms;
 }
 
@@ -67,6 +84,7 @@ a, a:hover{
   }
 
   .album-d4{
+    width: 15rem;
     margin:10px;
     margin-bottom: 25px;
   }
@@ -167,14 +185,14 @@ a, a:hover{
 
   .iconos{
     position: absolute;
-    top: 2.6rem;
-    left: 0.8em;
+    top: 3.1rem;
+    left: 2em;
     color: white;
   }
 
   .icono{
-    font-size: 20px;
-    padding:3px !important;
+    font-size: 22px;
+    padding:4px !important;
   }
 
   .icono:hover{
@@ -184,5 +202,33 @@ a, a:hover{
   .icono-d11{
     font-size: 30px !important;
   }
+
+  .col1-d13{
+    order:1;
+  }
+
+  .col2-d13{
+    order: 0;
+    margin:20px;
+  }
+
+  .D12{
+    height: 14rem;
+  }
+
+  .titulo-z{
+    position: absolute;
+    top: 0px;
+    left: 1rem;
+    width: 80%;
+  }
+
+  .imagen-z{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+  }
+  
 }
  

@@ -16,6 +16,7 @@ import D9 from './Views/D9';
 import D10 from './Views/D10';
 import D11 from './Views/D11';
 import D12 from './Views/D12';
+import D13 from './Views/D13';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <D10 />
       <D11 />
       <D12 />
+      <D13 />
     </div>
   );
 }
