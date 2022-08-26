@@ -13,6 +13,9 @@ import D6 from './Views/D6';
 import D7 from './Views/D7';
 import D8 from './Views/D8';
 import D9 from './Views/D9';
+import D10 from './Views/D10';
+import D11 from './Views/D11';
+import D12 from './Views/D12';
 
 
 function App() {
@@ -27,6 +30,9 @@ function App() {
       <D7 />
       <D8 />
       <D9 />
+      <D10 />
+      <D11 />
+      <D12 />
     </div>
   );
 }

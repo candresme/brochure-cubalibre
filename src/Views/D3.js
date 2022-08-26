@@ -13,9 +13,9 @@ import fondo from '../img/D3-01.png.webp';
 export const D3 = () => {
   return (
     <div className="container-fluid text-center">
-        <Bounce left cascade>
-            <div className="row p-0 pt-5-md align-items-center justify-content-center" style={{backgroundImage: `url(${fondo})`, backgroundPosition: 'center',backgroundSize: 'cover'}}>
-
+        
+        <div className="row p-0 pt-5-md align-items-center justify-content-center" style={{backgroundImage: `url(${fondo})`, backgroundPosition: 'center',backgroundSize: 'cover'}}>
+            <Bounce left cascade>
                 <div className="col-12 p-0 m-0" >
                     <D3Titulo />
                 </div>
@@ -23,9 +23,9 @@ export const D3 = () => {
                 <div className="col-12 p-0 m-0 ps-md-5 pb-4" >
                     <LineaTiempo />
                 </div>                   
-  
-            </div>
-        </Bounce>
+            </Bounce>
+        </div>
+        
     </div>
   )
 }

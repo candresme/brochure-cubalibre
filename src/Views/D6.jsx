@@ -13,29 +13,34 @@ import info3 from '../img/D6-05.png.webp';
 const D6 = () => {
   return (
     <div className="container-fluid text-center">
-        <Bounce left cascade>
-            <div className="row p-4 align-items-center justify-content-center" style={{backgroundImage: `url(${fondo})`, backgroundPosition: 'center',backgroundSize: 'cover'}}>
+        
+        <div className="row p-4 align-items-center justify-content-center" style={{backgroundImage: `url(${fondo})`, backgroundPosition: 'center',backgroundSize: 'cover'}}>
+            <Bounce left cascade>
 
-                <div className='row align-items-center justify-content-end'>
-                    <div className="col-md-4 col-sm-12 p-4">
-                        <img className="m-0 p-0" src={titulo} alt="Imagen integrantes de Cuba Libre" width='100%'/>
+                <div className='row align-items-center justify-content-center'>
+                    <div className="col-md-4 col-sm-12 text-center">
+                        <img className="m-0 p-0 titulo-d6" src={titulo} alt="Imagen Cuba Libre" width='100%'/>
                     </div>
                 </div>
 
-                <div className='row'>
-                    <div className="col-md col-sm-12 p-4">
-                        <img className="m-0 p-0" src={info1} alt="Imagen integrantes de Cuba Libre" width='100%'/>
+                <div className='row align-items-center justify-content-center'>
+                    
+                    <div className="col-md col-sm-12 text-center fram">
+                        <img className="m-0 p-0 info info1" src={info1} alt="Imagen Cuba Libre" width='100%'/>
                     </div>
-                    <div className="col-md col-sm-12 p-4">
-                        <img className="m-0 p-0" src={info2} alt="Imagen integrantes de Cuba Libre" width='100%'/>
+
+                    <div className="col-md col-sm-12 text-center fram">
+                        <img className="m-0 p-0 info info2" src={info2} alt="Imagen Cuba Libre" width='100%'/>
                     </div>
-                    <div className="col-md col-sm-12 p-4">
-                        <img className="m-0 p-0" src={info3} alt="Imagen integrantes de Cuba Libre" width='100%'/>
+
+                    <div className="col-md col-sm-12 text-center fram">
+                        <img className="m-0 p-0 info info3" src={info3} alt="Imagen Cuba Libre" width='100%'/>
                     </div>
                 </div>
 
-            </div>
-        </Bounce>
+            </Bounce>
+        </div>
+        
 
     </div>
   )

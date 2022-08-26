@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&family=Sedgwick+Ave&display=swap');
+
 .App {
   text-align: center;
 }
@@ -28,3 +31,158 @@ h1{
   font-family: 'Sedgwick Ave', cursive;
 }
 
+.titulo-z{
+  position: absolute;
+  top: 0px;
+  left: 1rem;
+  width: 70%;
+}
+
+.iconos{
+  position: absolute;
+  top: 14rem;
+  left: 1em;
+  color: white;
+  width: 70%;
+}
+
+.icono{
+  font-size: 40px;
+  transition: 100ms;
+}
+
+a, a:hover{
+  color:white;
+}
+
+.icono:hover{
+  font-size: 45px;
+  transition: 100ms;
+}
+
+/*::::::::::::::::: MEDIAQUERY PARA MOVILES ::::::::::: */
+@media screen and (max-width: 576px) {
+  .titulo-d4{
+    margin: 10px;
+  }
+
+  .album-d4{
+    margin:10px;
+    margin-bottom: 25px;
+  }
+
+  .d5-1{
+    order: 2;
+  }
+
+  .d5-3{
+    display: none;
+  }
+
+  .titulo-d6{
+    width: 16rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .info{
+    width: 14rem;
+  }
+
+  .info1, .info3{
+    width: 16rem;
+  }
+
+  .fram{
+    padding: 10px;
+  }
+
+  .location{
+    width: 4rem;  
+  }
+
+  .titulos-d7{
+    font-size: 20px;
+    text-align: start;
+  }
+
+  .col1-d8{
+    order:2
+  }
+
+  .texto-d8{
+    font-size: 20px;
+  }
+
+  .titulo-d8{
+    width: 100%;
+  }
+
+  .titulo-d9{
+    width: 19rem;
+  }
+
+  .titulos-d9{
+    font-size: 20px;
+  }
+
+  .card-d9{
+    margin-top: 15px;
+  }
+
+  .mascota-d9{
+    width: 15rem;
+    align-self: center;
+  }
+
+  .col1-d10{
+    order: 2;
+  }
+
+  .titulo-d10{
+    width: 90%;
+  }
+
+  .grafico-d10{
+    width: 10rem;
+  }
+
+  .texto-d10{
+    font-size: 10px;
+  }
+
+  .titulo-d11{
+    width: 100%;
+  }
+
+  .div1-d11{
+    margin:0px !important;
+    margin-top:15px !important;
+  }
+
+  .div2-d11{
+    margin:0px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .iconos{
+    position: absolute;
+    top: 2.6rem;
+    left: 0.8em;
+    color: white;
+  }
+
+  .icono{
+    font-size: 20px;
+    padding:3px !important;
+  }
+
+  .icono:hover{
+    font-size: 20px;
+  }
+
+  .icono-d11{
+    font-size: 30px !important;
+  }
+}
+ 

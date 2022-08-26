@@ -12,24 +12,25 @@ import complemento from '../img/D5-03.png.webp';
 const D5 = () => {
   return (
     <div className="container-fluid text-center">
-        <Bounce left cascade>
-            <div className="row p-0 pt-5-md align-items-center justify-content-center" style={{backgroundImage: `url(${fondo})`, backgroundPosition: 'center',backgroundSize: 'cover'}}>
+        
+        <div className="row p-0 pt-5-md align-items-center justify-content-center" style={{backgroundImage: `url(${fondo})`, backgroundPosition: 'center',backgroundSize: 'cover'}}>
+            <Bounce left cascade>
 
-                <div className="col-sm-12 col-md-5 p-0 m-0" >
+                <div className="col-sm-12 col-md-5 p-0 m-0 d5-1" >
                     <img className="m-0 p-0" src={imagen} alt="Imagen integrantes de Cuba Libre" width='100%'/>
                 </div>
     
 
-                <div className="col-sm-12 col-md p-0 m-0 " >
+                <div className="col-sm-12 col-md p-0 mt-4 d5-2" >
                     
-                    <div className='row p-md-5'>
+                    <div className='row mb-4 align-items-center justify-content-center'>
                         <div className="col">
                             <img className="m-0 w-75" src={titulo} alt="" width='40%' />
                         </div>
                     </div>
 
-                    <div className='row p-4'>
-                        <div className="col-md col-sm-12 m-1">
+                    <div className='row align-items-center justify-content-center'>
+                        <div className="col-md col-sm-12 ">
                             <iframe src="https://open.spotify.com/embed/track/6m6KUejBfBNVt86Jrk2MDY?utm_source=generator" width="300" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         </div>
                         <div className="col-md col-sm-12 m-1">
@@ -48,14 +49,14 @@ const D5 = () => {
                    
                 </div>
 
-                <div className='row p-0 m-0'>
+                <div className='row p-0 m-0 d5-3'>
                     <div className="col p-0 m-0 position-relative  ">                        
                         <img className="m-0 p-0 position-absolute bottom-0 end-0" src={complemento} alt="" width={'15%'}/>
                     </div>
                 </div>                  
-  
-            </div>
-        </Bounce>
+            </Bounce>
+        </div>
+        
     </div>
   )
 }
