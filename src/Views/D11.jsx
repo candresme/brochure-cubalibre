@@ -7,7 +7,7 @@ import Bounce from 'react-reveal/Bounce';
 import imagen from '../img/D11-13.png.webp';
 import complemento from '../img/D11-16.png.webp';
 import fondo from '../img/D11-14.png.webp';
-import titulo from '../img/D11-15.png.webp';
+import titulo from '../img/D11-1-16.png';
 
 const D11 = () => {
   return (

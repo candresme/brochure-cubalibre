@@ -45,7 +45,7 @@ const D9 = () => {
                         </div>
 
                         <div className="col-md-4 p-2 col-sm card-d9">
-                            <p className="text-center p-0 m-0 titulos-d9" style={{color: 'white'}}>Trendiendo Canal RCN</p>
+                            <p className="text-center p-0 m-0 titulos-d9" style={{color: 'white'}}>Trendiando Canal RCN</p>
                             <iframe src="https://www.youtube.com/embed/5kJQ1oJKC_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
 
