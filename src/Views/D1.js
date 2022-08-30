@@ -12,7 +12,8 @@ import fondo from '../img/D1-01.png.webp'
 
 export const D1 = () => {
   return (
-    <div className="container-fluid text-center">        
+    <div className="container-fluid text-center">
+             
           <div className="row pt-md-2 pt-sm-5 pb-0 align-items-center justify-content-center" style={{backgroundImage: `url(${fondo})`, backgroundPosition: 'center',backgroundSize: 'cover'}}>
             <Bounce left cascade>
               

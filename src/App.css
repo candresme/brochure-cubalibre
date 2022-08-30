@@ -231,4 +231,12 @@ a, a:hover{
   }
   
 }
+
+.figuraPrueba{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    width: 30%;
+}
+
  
