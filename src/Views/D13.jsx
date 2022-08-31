@@ -24,7 +24,7 @@ const D13 = () => {
 
               <div className='row align-items-center justify-content-center mt-2'>
                 
-                <a className='col-sm-5 col-md-5 p-1 rounded-3 boton' href="https://firebasestorage.googleapis.com/v0/b/brochure-cubalibre.appspot.com/o/Cuba%20Libre%20final.pdf?alt=media&token=9511d9fe-9be4-459b-983e-c177a4399dcb" rel="noreferrer" target="_blank">
+                <a className='col-sm-5 col-md-5 p-1 rounded-3 boton' href="https://firebasestorage.googleapis.com/v0/b/brochure-cubalibre.appspot.com/o/Copy%20of%20Cuba%20Libre.pdf?alt=media&token=3c09f772-3a2b-4852-a6bb-2e5af29e125e" rel="noreferrer" target="_blank">
                   <div>
                       <p className='text-center fs-5'>Brochure en PDF</p>
                   </div>
@@ -49,7 +49,7 @@ const D13 = () => {
               </div>
 
               <div className='row align-items-center justify-content-center mt-2'>              
-                <a className='col-sm-5 col-md-5 p-1 rounded-3 boton' href="https://pornhub.com" rel="noreferrer" target="_blank">
+                <a className='col-sm-5 col-md-5 p-1 rounded-3 boton' href="https://drive.google.com/drive/u/3/folders/1DS71XC3UZ3eVTiw8I_5WL6N1rnTYkzSK" rel="noreferrer" target="_blank">
                   <div >
                       <p className='text-center fs-4'>Fotos</p>
                   </div>
