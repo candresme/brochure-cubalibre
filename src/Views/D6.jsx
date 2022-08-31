@@ -30,12 +30,13 @@ const D6 = () => {
                     </div>
 
                     <div className="col-md col-sm-12 text-center fram">
-                        <img className="m-0 p-0 info info2" src={info2} alt="Imagen Cuba Libre" width='100%'/>
+                        <img className="m-0 p-0 info info3" src={info3} alt="Imagen Cuba Libre" width='100%'/>
                     </div>
 
                     <div className="col-md col-sm-12 text-center fram">
-                        <img className="m-0 p-0 info info3" src={info3} alt="Imagen Cuba Libre" width='100%'/>
+                        <img className="m-0 p-0 info info2" src={info2} alt="Imagen Cuba Libre" width='100%'/>
                     </div>
+                    
                 </div>
 
             </Bounce>
